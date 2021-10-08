@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "links",
   "info": {
-    "name": "links"
+    "name": "links",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -54,6 +55,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "links"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
