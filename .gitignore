@@ -1,3 +1,7 @@
+# can cause trouble with heroku
+.package-lock.json
+.yarn.lock
+
 ############################
 # OS X
 ############################
